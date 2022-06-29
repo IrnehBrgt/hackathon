@@ -2,7 +2,7 @@ import './App.css';
 import Homepage from './pages/Homepage';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Forum from './pages/Forum';
-import Comments from './components/Comments';
+import TopicDetails from './components/TopicDetails';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/forum" element={<Forum />} />
-          <Route path="/comments" element={<Comments />} />
+          <Route path="/forum/details" element={<TopicDetails />} />
         </Routes>
       </div>
     </Router>
