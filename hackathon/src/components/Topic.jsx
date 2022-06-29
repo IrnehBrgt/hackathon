@@ -19,6 +19,7 @@ function Topic() {
         list of the top ten common mistakes you need to be aware of as a junior
         developer.
       </p>
+      <p>See more</p>
       </div>
       <div className='one-topic'>
       <h3>Not Knowing Their Self Worth</h3>
@@ -43,6 +44,7 @@ function Topic() {
         you by doing a bit of research on the internet. Learn about the company
         culture from the reviews provided by employees on various sites.
       </p>
+      <p>See more</p>
       </div>
       <div className='one-topic'>
       <h3>Focusing on Code Instead of the Big Picture</h3>
@@ -56,6 +58,7 @@ function Topic() {
         with the idea for the framework in a day. You have to focus on your
         target and follow up on whatever you need to get to that target.
       </p>
+      <p>See more</p>
     </div>
     </div>
   );
