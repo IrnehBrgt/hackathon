@@ -1,0 +1,10 @@
+body {
+  background-color: aqua;
+}
+
+.one-topic {
+  background-color: beige;
+  margin: 1rem;
+  border: solid red;
+  border-radius: 1rem;
+}
