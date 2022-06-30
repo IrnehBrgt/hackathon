@@ -19,7 +19,7 @@ function RoundTable() {
       {ContentOfTable.map((card) => (
         <div className='Card'>
           <h3>{card.title}</h3>
-          <h3>{card.content}</h3>
+          <p>{card.content}</p>
         </div>
       ))}
       <div>
