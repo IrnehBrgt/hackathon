@@ -7,8 +7,8 @@ import '../assets/Homepage.css';
 function Homepage() {
   return (
     <div className='boxHome'>
-       <div className='boxSideBar'>
-      <Sidebar />
+      <div className='boxSideBar'>
+        <Sidebar />
       </div>
       <div className='boxPage'>
       <h1 className='titleWelcome'>Welcome on INSIDE-APSIDE</h1>
@@ -25,12 +25,8 @@ function Homepage() {
       </NavLink>
      </div>
      <h1>welcome on INSIDE-APSIDE ! </h1>
-      <button type='button' className='RoundTable-button'>
-          <NavLink className='details' to='/tableRonde'>
-            Table Ronde
-          </NavLink>
-        </button>
      
+       
       </div>
     </div>
   );
