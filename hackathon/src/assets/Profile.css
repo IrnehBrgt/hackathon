@@ -32,6 +32,13 @@ h1 {
 h3 {
   color: var(--title-color);
   margin-left: 3rem;
+  margin-bottom: 0;
+}
+
+.trait {
+  width: 100vw;
+  border: 1px solid var(--alternative-color);
+  margin-bottom: 3rem;
 }
 
 .infos {
@@ -45,7 +52,6 @@ h3 {
   justify-content: center;
   gap: 1rem;
   display: flex;
-  list-style: none;
 }
 
 .logo {

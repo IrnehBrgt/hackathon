@@ -1,6 +1,8 @@
 import React from 'react';
 import Pictos from '../components/Pictos';
 import Member from '../components/Member';
+import Sidebar from '../components/Sidebar';
+import tchat from '../photos_et_logos/tchat.png';
 import linkedin from '../photos_et_logos/linkedin.png';
 import github from '../photos_et_logos/github.png';
 import plus from '../photos_et_logos/plus.png';
@@ -23,8 +25,10 @@ function Profile() {
         <Pictos />
         <Member />
       </header>
+      {/* <Sidebar /> */}
       <div className='informations'>
         <h3>MES INFORMATIONS</h3>
+        <div class='trait'></div>
         <div className='infos'>
           <ul>
             <li>
@@ -56,21 +60,19 @@ function Profile() {
           </ul>
         </div>
         <div className='logos'>
-          <li>
-            <a href='https://www.linkedin.com/marie-martin/'>
-              <img className='logo' src={linkedin} alt='logo_linkedin' />
-            </a>
-          </li>
-          <li>
-            <a href='https://github.com/mariemartin'>
-              <img className='logo' src={github} alt='logo_github' />
-            </a>
-          </li>
-          <li>
-            <img className='logo' src={plus} alt='logo_+' />
-          </li>
+          <a href='https://www.linkedin.com/'>
+            <img className='logo' src={tchat} alt='logo_tchat' />
+          </a>
+          <a href='https://www.linkedin.com/'>
+            <img className='logo' src={linkedin} alt='logo_linkedin' />
+          </a>
+          <a href='https://github.com/'>
+            <img className='logo' src={github} alt='logo_github' />
+          </a>
+          <img className='logo' src={plus} alt='logo_+' />
         </div>
         <h3>MA PRESENTATION</h3>
+        <div class='trait'></div>
         <p className='bio'>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
@@ -80,6 +82,7 @@ function Profile() {
           remaining essentially unchanged...
         </p>
         <h3>MES LANGAGES DE PROGRAMMATION</h3>
+        <div class='trait'></div>
         <div className='technos'>
           <img className='techno' src={html} alt='html' />
           <img className='techno' src={css} alt='css' />
@@ -91,6 +94,7 @@ function Profile() {
           <img className='techno' src={java} alt='java' />
         </div>
         <h3>LANGAGES EN COURS D'APPRENTISSAGE</h3>
+        <div class='trait'></div>
         <div className='technos2'>
           <img className='techno' src={python} alt='python' />
           <img className='techno' src={mongodb} alt='mongodb' />
