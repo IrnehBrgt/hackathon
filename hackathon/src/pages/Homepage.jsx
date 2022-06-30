@@ -11,7 +11,7 @@ function Homepage() {
       <Sidebar />
       </div>
       <div className='boxPage'>
-      <h1 className='titleWelcome'>Welcome on INSIDE-ABSIDE</h1>
+      <h1 className='titleWelcome'>Welcome on INSIDE-APSIDE</h1>
       <p className='aLaUneTitle'>A la une</p>
      <div className='boxAlaUne'>
     <h2>Inside Apside</h2>
@@ -24,7 +24,7 @@ function Homepage() {
       <div className='boxcolor' id="boxCom">La communauté des Apsidiens</div>
       </NavLink>
      </div>
-     <h1>welcome on INSIDE-ABSIDE ! </h1>
+     <h1>welcome on INSIDE-APSIDE ! </h1>
       <button type='button' className='RoundTable-button'>
           <NavLink className='details' to='/tableRonde'>
             Table Ronde

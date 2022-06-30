@@ -6,7 +6,7 @@ export const Sidebardata=[
   },
   {
     title:"Mon compte",
-    path: "/moncompte",
+    path: "/Profile",
     cName: "nav-text"
   },
   {
@@ -18,6 +18,11 @@ export const Sidebardata=[
     title:"Plus d'actualités",
     path:"/plusdactu",
     cName: "nav-text"
+  },
+  {
+    title:"Les projets",
+    path:"/projets",
+    cName:"nav-text"
   },
   {
     title:"La communauté des Apsidiens",

@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import photo from '../photos_et_logos/photo_profile.jpg';
 import Pictos from '../components/Pictos';
 import linkedin from '../photos_et_logos/linkedin.png';
@@ -71,6 +72,11 @@ function Profile() {
           </li>
           <li>
             <img className='logo' src={plus} alt='logo_+' />
+          </li>
+          <li>
+            <NavLink to='/profile/chat'>
+              <p>Ma messagerie</p>
+            </NavLink>
           </li>
         </div>
         <h3>MA PRESENTATION</h3>
