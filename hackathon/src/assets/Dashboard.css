@@ -1,0 +1,92 @@
+:root {
+  --background-color: #fefdfd;
+  --title-color: #183650;
+  --text-color: #444444;
+  --alternative-color: #d79463;
+
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1rem;
+  background-color: var(--background-color);
+}
+
+.dashboardContents {
+  margin-left: 18rem;
+}
+
+.informations {
+  margin: 3rem;
+}
+
+h3 {
+  color: var(--title-color);
+  margin-left: 3rem;
+  margin-top: 5rem;
+  margin-bottom: 0;
+}
+
+.trait {
+  width: 70vw;
+  border: 1px solid var(--alternative-color);
+  margin-bottom: 3rem;
+}
+
+h4 {
+  color: var(--title-color);
+  margin-bottom: 0;
+}
+
+.applicationName {
+  margin-left: 6rem;
+}
+
+.forToday {
+  margin-left: 5rem;
+}
+
+.currentSprint {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.project {
+  margin-left: 3rem;
+  display: flex;
+  justify-content: flex-start;
+  gap: 3rem;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+}
+
+.tasks {
+  margin-left: 2rem;
+}
+
+.currentProjects {
+  display: flex;
+  margin-left: 4.5rem;
+  gap: 10rem;
+}
+
+.currentProject {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.finishedProjects {
+  display: flex;
+  justify-content: space-around;
+}
+
+.finishedProject {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

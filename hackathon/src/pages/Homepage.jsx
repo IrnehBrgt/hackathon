@@ -11,7 +11,7 @@ function Homepage() {
         <Sidebar />
       </div>
       <div className='boxPage'>
-        <h1 className='titleWelcome'>Welcome on INSIDE-ABSIDE</h1>
+        <h1 className='titleWelcome'>Bienvenue sur INSIDE-APSIDE</h1>
         <p className='aLaUneTitle'>A la une</p>
         <div className='boxAlaUne'>
           <h2>Inside Apside</h2>

@@ -6,7 +6,12 @@ export const Sidebardata = [
   },
   {
     title: 'Mon compte',
-    path: '/moncompte',
+    path: '/profile',
+    cName: 'nav-text',
+  },
+  {
+    title: 'Mon tableau de bord',
+    path: '/dashboard',
     cName: 'nav-text',
   },
   {
