@@ -7,7 +7,6 @@ function RoundTable() {
   const [newTopic, setNewTopic] = useState([]);
   const [value, setValue] = useState();
   const [form, setForm] = useState(false);
-  const [count, setCount] = useState(0);
 
   function handleClick(e) {
     e.preventDefault();
@@ -19,36 +18,32 @@ function RoundTable() {
     setValue(e.target.value);
   }
 
-  function handleCount(e) {
-    setCount(count + 1);
-  }
-
   return (
     <div className='RoundTable'>
       {ContentOfTable.map((card) => (
         <div className='Card'>
           <h3>{card.title}</h3>
-          <p>{card.content}</p>
+          <h5>{card.content}</h5>
+          <p>Lieu : {card.location}</p>
           <TopicButton />
         </div>
       ))}
       <div className='addTopic'>
         <h3>
           {form ? (
-            <div>
+            <div className='newtopic'>
               <h3>{newTopic}</h3>
-              <button onClick={handleCount}>Je participe</button>{' '}
-              <p>Participants : {count}</p>
             </div>
           ) : (
             "C'est votre tour"
           )}
         </h3>
+        <TopicButton />
       </div>
-      <div classname='formTopic'>
+      <div classname='FormTopic'>
         <form onSubmit={handleClick}>
           <label className='form-search' htmlFor='newsSearch'>
-            Post a new topic !
+            Poster une nouvelle idée :&nbsp;&nbsp;&nbsp;
             <input type='text' value={value} onChange={handleChange} />
           </label>
           <input type='submit' value='Go' />
