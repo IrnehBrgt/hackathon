@@ -1,11 +1,13 @@
 .sidebar {
+  top:0;
+  left: 0;
   background-color:#1b364e;
-  height: 100%;
-  width: 300px;
+  min-width: 300px;
+  height: 100vh;
+  position: fixed;
 }
 
 .logoApside {
-  height: 100%;
   width: 300px;
 }
 
@@ -31,5 +33,6 @@
 }
 
 .nav-text a:hover {
-  background-color: #1a83ff;
+  background-color: #a5b4c0;
 }
+
