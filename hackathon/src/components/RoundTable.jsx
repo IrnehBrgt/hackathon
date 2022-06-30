@@ -1,13 +1,16 @@
 import React, { useState } from 'react';
 import ContentOfTable from './ContentOfTable';
+import '../assets/RoundTable.css'
 
 function RoundTable() {
   const [newTopic, setNewTopic] = useState([]);
   const [value, setValue]= useState()
+  const [form, setForm] = useState(false)
 
   function handleClick(e) {
     e.preventDefault();
     setNewTopic(value);
+    setForm(!form)
   }
 
   function handleChange(e) {
@@ -22,10 +25,10 @@ function RoundTable() {
           <p>{card.content}</p>
         </div>
       ))}
-      <div>
-        <h3>{newTopic}</h3>
+      <div className='addTopic'>
+        <h3>{form ? <h3>{newTopic}</h3> :"C'est votre tour" }</h3>
       </div>
-      <div classname='addTopic'>
+      <div classname='formTopic'>
         <form onSubmit={handleClick}>
           <label className='form-search' htmlFor='newsSearch'>
             Post a new topic ! 

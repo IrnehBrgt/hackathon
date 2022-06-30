@@ -1,5 +1,10 @@
-.RoundTable {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.Card {
+  border: solid #d79463;
+  border-radius: 1rem;
+  gap: 2rem;
+}
+
+.addTopic {
+  border: solid #d79463;
+  border-radius: 1rem;
 }
