@@ -1,0 +1,74 @@
+:root {
+  --background-color: #FEFDFD;
+  --title-color: #183650;
+  --text-color: #444444;
+  --alternative-color: #D79463;
+  box-sizing: border-box;
+}
+
+.generalContainer {
+  margin-left: 50vh;
+  margin-top: 10rem;
+}
+
+.messagesContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+}
+
+.boxMessage {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.boxanswer {
+  display: flex;
+  flex-direction: column;
+  gap:1rem;
+}
+
+.boxtest {
+  display: flex;
+  flex-direction: row;
+}
+
+.messageInput {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: var(--alternative-color);
+  width: 300px;
+  height: 2rem;
+}
+
+.styleBtn {
+   background-color:#0a0a23;
+  color: #fff;
+  border:none; 
+  border-radius:10px; 
+}
+
+#answer {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--background-color);
+  display: flex;
+}
+
+#response input {
+  background-color: #a5b4c0;
+  align-items: flex-end;
+}
+
+#response {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+}
+
+.textMes {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: small;
+}

@@ -15,14 +15,14 @@ export const Sidebardata = [
     cName: 'nav-text',
   },
   {
-    title: 'A la une chez Apsite',
+    title: 'A la une chez Apside',
     path: '/actu',
     cName: 'nav-text',
   },
   {
-    title: "Plus d'actualités",
-    path: '/plusdactu',
-    cName: 'nav-text',
+    title:"Les projets",
+    path:"/projets",
+    cName:"nav-text"
   },
   {
     title: 'La communauté des Apsidiens',

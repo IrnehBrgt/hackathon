@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import photo from '../photos_et_logos/photo_profile.jpg';
 import Pictos from '../components/Pictos';
 import Member from '../components/Member';
 import Sidebar from '../components/Sidebar';
