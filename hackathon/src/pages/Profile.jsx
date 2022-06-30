@@ -1,6 +1,6 @@
 import React from 'react';
-import photo from '../photos_et_logos/photo_profile.jpg';
 import Pictos from '../components/Pictos';
+import Member from '../components/Member';
 import linkedin from '../photos_et_logos/linkedin.png';
 import github from '../photos_et_logos/github.png';
 import plus from '../photos_et_logos/plus.png';
@@ -21,10 +21,7 @@ function Profile() {
     <div className='profile'>
       <header>
         <Pictos />
-        <div className='member'>
-          <img className='photoProfile' src={photo} alt='photo_de_profil' />
-          <h1>Bonjour Marie !</h1>
-        </div>
+        <Member />
       </header>
       <div className='informations'>
         <h3>MES INFORMATIONS</h3>

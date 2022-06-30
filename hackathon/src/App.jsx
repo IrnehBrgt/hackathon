@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Forum from './pages/Forum';
 import TopicDetails from './components/TopicDetails';
 import Profile from './pages/Profile';
+import Dashboard from './pages/Dashboard';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route path='/forum' element={<Forum />} />
           <Route path='/forum/details' element={<TopicDetails />} />
           <Route path='/profile' element={<Profile />} />
+          <Route path='/dashboard' element={<Dashboard />} />
         </Routes>
       </div>
     </Router>

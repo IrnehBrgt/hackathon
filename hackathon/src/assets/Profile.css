@@ -12,13 +12,6 @@ body {
   background-color: var(--background-color);
 }
 
-.member {
-  margin-left: 3rem;
-  display: flex;
-  flex-direction: row;
-  gap: 5vh;
-}
-
 .photoProfile {
   height: 100px;
   width: 100px;
@@ -45,10 +38,6 @@ h3 {
   margin-top: 3rem;
   display: flex;
   justify-content: space-evenly;
-}
-
-.title {
-  font-weight: bold;
 }
 
 .logos {
