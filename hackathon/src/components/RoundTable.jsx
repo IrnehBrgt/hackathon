@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import ContentOfTable from './ContentOfTable';
 import '../assets/RoundTable.css';
+import TopicButton from './TopicButton';
 
 function RoundTable() {
   const [newTopic, setNewTopic] = useState([]);
@@ -28,8 +29,7 @@ function RoundTable() {
         <div className='Card'>
           <h3>{card.title}</h3>
           <p>{card.content}</p>
-          <button onClick={handleCount}>Je participe</button>
-          <p>Participants : {count}</p>
+          <TopicButton />
         </div>
       ))}
       <div className='addTopic'>
