@@ -1,5 +1,6 @@
-import React from 'react'
+import React from 'react';
 import { NavLink } from 'react-router-dom';
+import '../assets/Homepage.css';
 
 function Homepage() {
   return (
@@ -11,7 +12,7 @@ function Homepage() {
           </NavLink>
         </button>
     </div>
-  )
+  );
 }
 
-export default Homepage
+export default Homepage;

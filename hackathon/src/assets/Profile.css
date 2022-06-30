@@ -1,0 +1,86 @@
+:root {
+  --background-color: #fefdfd;
+  --title-color: #183650;
+  --text-color: #444444;
+  --alternative-color: #d79463;
+
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1rem;
+  background-color: var(--background-color);
+}
+
+.member {
+  margin-left: 3rem;
+  display: flex;
+  flex-direction: row;
+  gap: 5vh;
+}
+
+.photoProfile {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  color: var(--title-color);
+}
+
+.informations {
+  margin: 3rem;
+}
+
+h3 {
+  color: var(--title-color);
+  margin-left: 3rem;
+}
+
+.infos {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.logos {
+  margin-bottom: 3rem;
+  justify-content: center;
+  gap: 1rem;
+  display: flex;
+  list-style: none;
+}
+
+.logo {
+  height: 2rem;
+  width: 2rem;
+}
+
+.bio {
+  margin: 3rem;
+  text-align: justify;
+}
+
+.techno {
+  height: 50px;
+}
+
+.technos {
+  margin: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.technos2 {
+  margin: 3rem;
+  display: flex;
+  gap: 2rem;
+}

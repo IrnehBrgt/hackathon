@@ -1,0 +1,18 @@
+:root {
+  --background-color: #fefdfd;
+  --title-color: #183650;
+  --text-color: #444444;
+  --alternative-color: #d79463;
+
+  box-sizing: border-box;
+}
+
+.pictos {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+.picto {
+  max-height: 3vh;
+}
