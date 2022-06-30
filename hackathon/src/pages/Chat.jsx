@@ -69,7 +69,7 @@ function Chat() {
                 type='text'
                 placeholder={message}
               />
-              </div>
+            </div>
           ))}
         </div>
        

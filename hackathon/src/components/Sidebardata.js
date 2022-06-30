@@ -25,11 +25,6 @@ export const Sidebardata = [
     cName:"nav-text"
   },
   {
-    title:"La communauté des Apsidiens",
-    path:"/tableRonde",
-    cName: "nav-text"
-    },
-  {
     title: 'La communauté des Apsidiens',
     path: '/tableRonde',
     cName: 'nav-text',
