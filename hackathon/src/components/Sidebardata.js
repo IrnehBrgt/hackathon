@@ -10,7 +10,7 @@ export const Sidebardata=[
     cName: "nav-text"
   },
   {
-    title:"A la une chez Apsite",
+    title:"A la une chez Apside",
     path:"/actu",
     cName: "nav-text"
   },
