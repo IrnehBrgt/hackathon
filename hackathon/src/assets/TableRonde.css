@@ -1,0 +1,7 @@
+.TableRonde {
+  display: flex;
+  margin-left: 15rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
