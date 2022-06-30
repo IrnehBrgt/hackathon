@@ -1,3 +1,75 @@
-body {
-  background-color: brown;
+:root {
+  --background-color: #FEFDFD;
+  --title-color: #183650;
+  --text-color: #444444;
+  --alternative-color: #D79463;
+  box-sizing: border-box;
+}
+
+.boxHome {
+  display: flex;
+  justify-content: space-between;
+}
+
+.aLaUneTitle {
+  color: var(--title-color);
+  font-size: larger;
+  font-weight: bolder;
+  text-decoration: underline rgb(232, 152, 91);
+ 
+}
+
+.boxPage {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 15rem;
+}
+
+.boxAlaUne {
+  margin: 2.5rem;
+  flex-grow: 1;
+  background-image: url("../Img/alesia-kazantceva-VWcPlbHglYc-unsplash.jpg");
+  min-width: 130vh;
+  min-height: 30rem;
+  background-repeat: no-repeat;
+  background-size: 130vh;
+}
+
+.boxThree {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-width: 130vh;
+  margin-top: 5rem;
+}
+
+.boxcolor {
+  background-color: red;
+  width: 20rem;
+  height: 20rem;
+}
+
+#boxProjets {
+  background-image: url("../Img/evangeline-shaw-4BCVE3C6K_o-unsplash.jpg");
+  background-size: contain;
+}
+
+#boxApsidien {
+  background-image: url("../Img/diego-ph-fIq0tET6llw-unsplash.jpg");
+  background-size: contain;
+}
+
+#boxCom {
+  background-image: url("../Img/chris-montgomery-smgTvepind4-unsplash.jpg");
+  background-size: contain;
+}
+
+.titleWelcome {
+    position: relative;
+    font-family: Impact, sans-serif;
+    font-size: 45px;
+    letter-spacing: 2px;
+    color: #183650;
 }
