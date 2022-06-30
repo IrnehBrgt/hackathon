@@ -2,7 +2,7 @@ const ContentOfTopic = [
   {
     title: 'Choix du nom de domaine pour un bon référencement',
     text: "Bonsoir,je démarre une activité de nettoyage de frelon ou guêpe dans ma région (près de Grenoble) ; je compte créer un site web pour me faire connaître. Il est donc important qu'il soit bien référencé afin que si les gens tapent les mots-clé frelons, guêpes, Grenoble, mon site apparaisse en première page. Première chose, je vais acheter un nom de domaine pour le site. Pensez-vous que son nom va compter pour son référencement, et si oui, quels sont vos conseils ? Je pense à faire apparaître les mots importants dans le nom ; par exemple https://www.guepeFrelonGrenoble.fr. Qu'en pensez-vous ?",
-    Profil: "laurentSc",
+    Profil: 'laurentSc',
     comment: [
       {
         OneComment:

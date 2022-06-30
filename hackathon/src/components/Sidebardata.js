@@ -21,7 +21,7 @@ export const Sidebardata=[
   },
   {
     title:"La communauté des Apsidiens",
-    path:"/forum",
+    path:"/tableRonde",
     cName: "nav-text"
   },
   {

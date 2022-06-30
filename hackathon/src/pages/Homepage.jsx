@@ -20,15 +20,17 @@ function Homepage() {
      <div className='boxThree'>
       <div className='boxcolor' id="boxProjets">Les projets</div>
       <div className='boxcolor' id="boxApsidien">L'Apsidien du mois</div>
-      <NavLink className='details' to='/forum'>
+      <NavLink to='/tableRonde'>
       <div className='boxcolor' id="boxCom">La communauté des Apsidiens</div>
       </NavLink>
      </div>
-      <button type='button' className='forum-button'>
-        <NavLink className='details' to='/forum'>
-          Forum
-        </NavLink>
-      </button>
+     <h1>welcome on INSIDE-ABSIDE ! </h1>
+      <button type='button' className='RoundTable-button'>
+          <NavLink className='details' to='/tableRonde'>
+            Table Ronde
+          </NavLink>
+        </button>
+     
       </div>
     </div>
   );
