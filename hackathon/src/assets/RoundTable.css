@@ -1,7 +1,14 @@
 .Card {
   border: solid #d79463;
   border-radius: 1rem;
-  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  padding: 1rem;
+  padding-top: 0;
+}
+.Card > h3 {
+  margin-left: 0;
 }
 
 .addTopic {

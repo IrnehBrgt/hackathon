@@ -12,6 +12,10 @@ body {
   background-color: var(--background-color);
 }
 
+.dashboardContents {
+  margin-left: 18rem;
+}
+
 .informations {
   margin: 3rem;
 }
@@ -19,11 +23,12 @@ body {
 h3 {
   color: var(--title-color);
   margin-left: 3rem;
+  margin-top: 5rem;
   margin-bottom: 0;
 }
 
 .trait {
-  width: 100vw;
+  width: 70vw;
   border: 1px solid var(--alternative-color);
   margin-bottom: 3rem;
 }
@@ -39,6 +44,12 @@ h4 {
 
 .forToday {
   margin-left: 5rem;
+}
+
+.currentSprint {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .project {
@@ -59,8 +70,8 @@ h4 {
 
 .currentProjects {
   display: flex;
-  margin-left: 6.5rem;
-  gap: 14.5rem;
+  margin-left: 4.5rem;
+  gap: 10rem;
 }
 
 .currentProject {
