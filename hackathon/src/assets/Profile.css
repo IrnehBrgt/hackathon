@@ -23,7 +23,7 @@ body {
   border: 2px solid black;
 }
 
-h1 {
+.profile h1 {
   display: flex;
   align-items: center;
   color: var(--title-color);
@@ -33,7 +33,7 @@ h1 {
   margin: 3rem;
 }
 
-h3 {
+.profile h3 {
   color: var(--title-color);
   margin-left: 3rem;
   margin-top: 5rem;
