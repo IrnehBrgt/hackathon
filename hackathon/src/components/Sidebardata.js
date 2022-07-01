@@ -21,7 +21,7 @@ export const Sidebardata = [
   },
   {
     title:"Les projets",
-    path:"/projets",
+    path:"/projects",
     cName:"nav-text"
   },
   {

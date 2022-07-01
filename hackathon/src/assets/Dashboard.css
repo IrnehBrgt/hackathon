@@ -20,7 +20,7 @@ body {
   margin: 3rem;
 }
 
-h3 {
+.dashboard h3 {
   color: var(--title-color);
   margin-left: 3rem;
   margin-top: 5rem;
