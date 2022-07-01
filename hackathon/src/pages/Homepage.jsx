@@ -11,22 +11,26 @@ function Homepage() {
         <Sidebar />
       </div>
       <div className='boxPage'>
-      <h1 className='titleWelcome'>Welcome on INSIDE-APSIDE</h1>
-      <p className='aLaUneTitle'>A la une</p>
-     <div className='boxAlaUne'>
-    <h2>Inside Apside</h2>
-    <h2>Le projet du mois</h2>
-     </div>
-     <div className='boxThree'>
-      <div className='boxcolor' id="boxProjets">Les projets</div>
-      <div className='boxcolor' id="boxApsidien">L'Apsidien du mois</div>
-      <NavLink to='/tableRonde'>
-      <div className='boxcolor' id="boxCom">La communauté des Apsidiens</div>
-      </NavLink>
-     </div>
-     <h1>welcome on INSIDE-APSIDE ! </h1>
-     
-       
+        <p className='aLaUneTitle'>Quoi de neuf chez Apside ?</p>
+        <div className='boxAlaUne'>
+          <h2 className='projectOfTheMonth'>Le projet du mois</h2>
+        </div>
+        <div className='boxThree'>
+          <div className='topics'>
+            <h4>Les projets</h4>
+            <div className='boxcolor' id='boxProjets'></div>
+          </div>
+          <div className='topics'>
+            <h4 className='withoutUnderline'>L'Apsidien du mois</h4>
+            <div className='boxcolor' id='boxApsidien'></div>
+          </div>
+          <NavLink to='/tableRonde'>
+            <div className='topics'>
+              <h4>La communauté des Apsidiens</h4>
+              <div className='boxcolor' id='boxCom'></div>
+            </div>
+          </NavLink>
+        </div>
       </div>
     </div>
   );
