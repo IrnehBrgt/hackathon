@@ -11,6 +11,7 @@ function Homepage() {
         <Sidebar />
       </div>
       <div className='boxPage'>
+        <h1>Bienvenue sur Inside-Apside</h1>
         <p className='aLaUneTitle'>Quoi de neuf chez Apside ?</p>
         <div className='boxAlaUne'>
           <h2 className='projectOfTheMonth'>Le projet du mois</h2>
