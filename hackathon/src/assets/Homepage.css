@@ -1,8 +1,8 @@
 :root {
-  --background-color: #FEFDFD;
+  --background-color: #fefdfd;
   --title-color: #183650;
   --text-color: #444444;
-  --alternative-color: #D79463;
+  --alternative-color: #d79463;
   box-sizing: border-box;
 }
 
@@ -16,7 +16,10 @@
   font-size: larger;
   font-weight: bolder;
   text-decoration: underline rgb(232, 152, 91);
- 
+}
+
+.projectOfTheMonth {
+  margin-right: 2rem;
 }
 
 .boxPage {
@@ -28,9 +31,10 @@
 }
 
 .boxAlaUne {
-  margin: 2.5rem;
+  display: flex;
+  justify-content: flex-end;
   flex-grow: 1;
-  background-image: url("../Img/alesia-kazantceva-VWcPlbHglYc-unsplash.jpg");
+  background-image: url('../Img/alesia-kazantceva-VWcPlbHglYc-unsplash.jpg');
   min-width: 130vh;
   min-height: 30rem;
   background-repeat: no-repeat;
@@ -41,35 +45,47 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  gap: 1rem;
   min-width: 130vh;
   margin-top: 5rem;
 }
 
+.topics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.withoutUnderline {
+  text-decoration: none;
+}
+
 .boxcolor {
-  background-color: red;
   width: 20rem;
   height: 20rem;
+  border-radius: 5px;
 }
 
 #boxProjets {
-  background-image: url("../Img/evangeline-shaw-4BCVE3C6K_o-unsplash.jpg");
+  background-image: url('../Img/evangeline-shaw-4BCVE3C6K_o-unsplash.jpg');
   background-size: contain;
 }
 
 #boxApsidien {
-  background-image: url("../Img/diego-ph-fIq0tET6llw-unsplash.jpg");
+  background-image: url('../Img/diego-ph-fIq0tET6llw-unsplash.jpg');
   background-size: contain;
 }
 
 #boxCom {
-  background-image: url("../Img/chris-montgomery-smgTvepind4-unsplash.jpg");
+  background-image: url('../Img/chris-montgomery-smgTvepind4-unsplash.jpg');
   background-size: contain;
 }
 
 .titleWelcome {
-    position: relative;
-    font-family: Impact, sans-serif;
-    font-size: 45px;
-    letter-spacing: 2px;
-    color: #183650;
+  position: relative;
+  font-family: Impact, sans-serif;
+  font-size: 45px;
+  letter-spacing: 2px;
+  color: #183650;
 }
